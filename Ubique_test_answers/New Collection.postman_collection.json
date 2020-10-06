@@ -1,0 +1,37 @@
+{
+	"variables": [],
+	"info": {
+		"name": "New Collection",
+		"_postman_id": "c9be0f4f-dd0e-b126-7097-ed46277963d8",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CurrencyCal",
+			"description": "",
+			"item": [
+				{
+					"name": "CurrencyCalculator",
+					"request": {
+						"url": "http://localhost:8081/api/currcalc",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  {\r\n    \"currency\":  \"USD\",\r\n    \"amount\": \"10\"  \r\n},\r\n  {\r\n    \"currency\":  \"USD\",\r\n    \"amount\": \"20\"  \r\n},\r\n  {\r\n    \"currency\":  \"USD\",\r\n    \"amount\": \"30\"  \r\n},\r\n  {\r\n    \"currency\":  \"EUR\",\r\n    \"amount\": \"10\"  \r\n},\r\n  {\r\n    \"currency\":  \"INR\",\r\n    \"amount\": \"10\"  \r\n},\r\n  {\r\n    \"currency\":  \"EUR\",\r\n    \"amount\": \"10\"  \r\n},\r\n  {\r\n    \"currency\":  \"INR\",\r\n    \"amount\": \"60\"  \r\n  },\r\n  {\r\n    \"currency\":  \"EUR\",\r\n    \"amount\": \"20\"  \r\n  }\r\n]\r\n"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
